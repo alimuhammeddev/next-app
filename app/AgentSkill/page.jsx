@@ -1,6 +1,8 @@
+'use client'; // Marks this file as a Client Component
+
 import React from "react";
 
-export const Agent = ({ isOpen, onClose }) => {
+export function Agent({ isOpen, onClose }) {
   if (!isOpen) return null;
   return (
     <div>
